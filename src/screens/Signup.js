@@ -12,7 +12,7 @@ export default function Signup() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const response = await fetch("http://localhost:4000/createUser", {
+    const response = await fetch("https://vast-teal-clam-toga.cyclic.app/createUser", {
       method: "POST",
       headers: {
         "Content-type": "application/json",
