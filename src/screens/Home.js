@@ -10,7 +10,7 @@ export default function Home() {
   const [foodItem, setFoodItem] = useState([]);
 
   const loadData = async () => {
-    let response = await fetch("https://vast-teal-clam-toga.cyclic.app/foodData", {
+    let response = await fetch("https://vast-teal-clam-toga.cyclic.app/api/foodData", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
