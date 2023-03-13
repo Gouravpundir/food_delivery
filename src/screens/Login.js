@@ -14,7 +14,7 @@ export default function Login() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const response = await fetch("http://localhost:4000/login", {
+    const response = await fetch("https://vast-teal-clam-toga.cyclic.app/login", {
       method: "POST",
       headers: {
         "Content-type": "application/json",
